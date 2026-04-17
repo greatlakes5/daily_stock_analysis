@@ -54,6 +54,16 @@ from src.webui_frontend import prepare_webui_frontend_assets
 from src.config import get_config, Config
 from src.logging_config import setup_logging
 
+#added by JY 4/17/2026 to improve analysis
+from ta_extensions import (
+    compute_multi_timeframe,
+    compute_support_resistance,
+    compute_atr_bands,
+    compute_volume_profile,
+    classify_regime,
+    detect_patterns
+)
+
 
 logger = logging.getLogger(__name__)
 _RUNTIME_ENV_FILE_KEYS = set()
