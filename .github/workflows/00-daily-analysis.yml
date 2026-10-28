@@ -1,7 +1,7 @@
 name: 每日股票分析
 
 on:
-  # 定时触发 - 每天北京时间 18:00 (UTC 10:00)
+  # 定时触发 - 每天北京时间 18:00 (UTC 10:00) 
   schedule:
     # 8:00 AM Central Time year-round
     # CST = UTC-6 → 14:00 UTC
